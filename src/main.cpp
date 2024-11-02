@@ -11,8 +11,6 @@ int main() {
                                        TransportLayerProtocol::UDP);
 
   client.connectServer();
-
   client.disconnectServer();
-
   return 0;
 }
