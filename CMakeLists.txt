@@ -6,6 +6,7 @@ project(dns-resolver)
 # Create test executable
 add_executable(dns-resolver
   src/main.cpp
+  src/NetworkClient.cpp
 )
 
 include_directories(src)
